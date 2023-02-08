@@ -2,7 +2,7 @@
 
 This tool allows you to find common subdirectories. I created it when made a copy of a Dropbox folder (including shared directories) and needed to find which directories were shared by other Dropbox account (being effectively duplicates).
 
-This software works on the `find` command line output
+This software works on the `find` command line output.
 
 ## Getting started
 
@@ -30,6 +30,6 @@ and then check results in LibreOffice or any other CSV editor of your choice.
 
 ## FAQ
 
-Why a manual step of running `find`? Why the software does not run it automatically?
+#### Why a manual step of running `find`? Why the software does not run it automatically?
 
 Because I needed to compare outputs from different machines, so I needed to work on `find` output anyway. I consider this option more powerful than running `find` locally. I would need option to parse `find` output anyway and I am a bit too lazy to make it so configurable :).
